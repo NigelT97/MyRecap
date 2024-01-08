@@ -14,7 +14,7 @@ int grade_decider(int var_x)
     }
     else if (var_x < 90)
     {
-        printf("%d \n is an excellent pass", var_x);
+        printf("%d is an excellent pass \n", var_x);
         return (90);
     }
     else
