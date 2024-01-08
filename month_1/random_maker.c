@@ -1,4 +1,4 @@
-#include "group1.h"
+#include "main.h"
 
 int random_maker(int i_var)
 {
