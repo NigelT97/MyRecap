@@ -1,5 +1,5 @@
-#ifndef GROUP1_H
-#define GROUP1_H
+#ifndef MAIN_H
+#define MAIN_H
 #include <stdio.h>
 
 int grade_decider(int var_x);

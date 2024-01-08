@@ -1,4 +1,4 @@
-#include "group1.h"
+#include "main.h"
 
 int grade_decider(int var_x)
 {

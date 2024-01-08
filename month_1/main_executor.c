@@ -1,4 +1,5 @@
-#include "group1.h"
+#include "main.h"
+#include <stdio.h>
 
 int main(void)
 {
