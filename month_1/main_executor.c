@@ -8,8 +8,9 @@ int main(void)
     {
         values[i] = random_maker(i);
         result = grade_decider(values[i]);
-        printf("%d = max", result);
+        printf("%d = max \n \n", result);
     }
 
     return 0;
 }
+
