@@ -1,0 +1,30 @@
+footer {
+    background-color: white;
+    height: 60px;
+    width: 100%;
+    border-top: 1px solid #CCCCCC;
+    bottom: 0;
+    text-align: center;
+    position: fixed;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #484848;
+    font-family: Circular, "Helvetica Neue",Arial, Helvetica, sans-serif;
+}
+
+header {
+    color: white;
+    height: 60px;
+    width: 100%;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+section.filters button {
+    font-size: 18px;
+    background-color: #FF5A5F;
+
+}
