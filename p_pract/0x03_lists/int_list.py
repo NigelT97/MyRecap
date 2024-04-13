@@ -18,9 +18,46 @@ def print_reverse(my_list=[]):
 
 def no_c(my_string):
     index = 0
-    for char_s in my_string:
-        if char_s == "c":
-            del my_string[index]
+    list_to_string = ""
+    string_list = list(my_string)
+    for char_s in string_list:
+        if char_s == 'c':
+            del string_list[index]
         index += 1
-    return(my_string)
+    for char_s in string_list:
+        list_to_string = list_to_string + char_s
+    return(list_to_string)
+
+def add_tuple(tuple_a=(), tuple_b=()):
+    value_a = tuple_a[0] + tuple_b[0]
+    value_b = tuple_a[1] + tuple_b[1]
+    new_ab = (value_a, value_b)
+    return (new_ab)
+
+def multiple_returns(sentence):
+    length = len(sentence)
+    if length == 0:
+        first_character = "None"
+    else:
+        string_list = list(sentence)
+        first_character = string_list[0]
+    return length, first_character
+
+def max_integer(my_list=[]):
+    index = 0
+    for value in my_list:
+        if index == 0:
+            max_value = value
+            index = 1
+        elif value >= max_value:
+            max_value = value
+    return max_value
+
+def delete_at(my_list=[], idx=0):
+    length = len(my_list)
+    del_list = my_list
+    print(length)
+    if idx < length and idx > 0:
+        del del_list[idx]
+    return del_list
 
